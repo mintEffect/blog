@@ -1,0 +1,57 @@
+title: 이도현의 기술 블로그
+email: dachex2@naver.com
+name: 이도현
+description: >- # this means to ignore newlines until "baseurl:"
+  
+keywords: [ ]
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://mintEffect.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "mintEffect.github.io" # the domain name for your site, e.g. example.com
+language: ko
+analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
+
+paginate: 25
+paginate_path: "/page:num/"
+
+comments: false  # enable comments
+disqus:          # disqus account
+
+mathjax: true # Mathematics
+mermaid: true # Diagrams
+
+permalink: /:year/:month/:day/:title
+
+sass:
+  sass_dir: _sass
+  style: expanded # compressed, compact, expanded or compressed
+
+# Category settings
+jekyll-archives:
+  enabled: 
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: /category/:name/
+    tag: /tag/:name/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
