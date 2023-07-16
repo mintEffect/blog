@@ -7,7 +7,7 @@ categories: [programming]
 tags: [Git]
 ---
 
-<git 명령어>
+git 명령어
 
 ```bash
 git status  
