@@ -10,13 +10,13 @@ tags: [Git]
 <git 명령어>
 
 ```bash
-git status
+git status  
 
-git add .
+git add .  
 
-git commit -m"수정한 내용"
+git commit -m"수정한 내용"  
 
-git push origin master
+git push origin master  
 ```
 
 
