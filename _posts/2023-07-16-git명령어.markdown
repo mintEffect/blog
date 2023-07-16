@@ -6,11 +6,19 @@ last_modified_at: 2023-07-16
 categories: [programming]
 tags: [Git]
 ---
+
 <수정 내용 올리는 방법>
+
+```bash
 git status
+
 git add .
+
 git commit -m"수정한 내용"
+
 git push origin master
+```
+
 
 
 
