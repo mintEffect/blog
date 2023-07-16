@@ -7,7 +7,7 @@ categories: [programming]
 tags: [Git]
 ---
 
-<수정 내용 올리는 방법>
+<git 명령어>
 
 ```bash
 git status
