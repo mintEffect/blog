@@ -5,6 +5,7 @@ date:   2023-07-23
 last_modified_at: 2023-07-23
 categories: [programming]
 tags: [Java]
+---
 #숫자 변수
 숫자 변수의 종류에는 정수, 실수 등이 있다.
 ###정수
