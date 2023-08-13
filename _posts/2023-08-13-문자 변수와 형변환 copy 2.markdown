@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "문자 변수와 형변환"
+date:   2023-08-13
+last_modified_at: 2023-08-13
+categories: [programming]
+tags: [Java]
+---
+##문자 변수 (char)
+
+문자를 선언할 때는 char을 이용한다.
+문잣값 앞뒤를 단일 인용 부호 ''로 감싸 주어야 한다.
+```
+char a1 = 'a';              //문자  
+char a2 = 97;               //아스키코드
+char a3 = '\u0061';         //유니코드
+
+System.out.println(a1);
+System.out.println(a2);
+System.out.println(a3);
+```
+출력값
+```
+a
+a
+a
+```
+문자, 아스키코드, 유니코드 모두 같은 값을 나타낸다.
+
+##형변환
+
+변수의 타입을 변환시킨다.
+```
+public class d230813 {
+    public static void main(String[] args){
+        //double -> int
+        double number = 3.0;
+        int number2 = (int) number;
+        System.out.println(number2);
+
+        //int -> float
+        float number3 = (float) number2;
+        System.out.println(number3);
+    }
+}
+```
+
+출력
+```
+3
+3.0
+```
+변수 = (자료형) 변수
