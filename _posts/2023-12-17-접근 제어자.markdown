@@ -6,13 +6,13 @@ last_modified_at: 2023-12-17
 categories: [programming]
 tags: [Java]
 ---
-# 접근 제어자
+# 접근 제어자  
 #### 접근 제어자의 종류
 1. private  
 2. default  
 3. protected  
 4. public  
-1 < 2 < 3 < 4 순으로 보다 많은 접근을 허용한다.  
+1 < 2 < 3 < 4 순으로 보다 많은 접근을 허용한다.    
 #### private
 private이 붙은 변수나 메서드는 해당 클래스 안에서만 접근이 가능하다. 
 
