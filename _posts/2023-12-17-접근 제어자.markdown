@@ -1,0 +1,27 @@
+---
+layout: post
+title: " 접근 제어자"
+date: 2023-12-17
+last_modified_at: 2023-12-17
+categories: [programming]
+tags: [Java]
+---
+# 접근 제어자
+#### 접근 제어자의 종류
+1. private  
+2. default  
+3. protected  
+4. public  
+1 < 2 < 3 < 4 순으로 보다 많은 접근을 허용한다.  
+#### private
+private이 붙은 변수나 메서드는 해당 클래스 안에서만 접근이 가능하다. 
+
+#### default
+접근 제어자를 따로 설정하지 않으면 default 값이 되는데 default이 붙은 변수나 메서드는 동일한 패키지 안에서 접근이 가능하다.
+
+#### protected
+protected가 붙은 변수나 메서드는 동일한 패키지의 클래스 또는 해당 클래스를 상속받은 클래스에서만 접근이 가능하다.
+ 
+#### public
+public이 붙은 변수나 메서드는 어떤 클래스에서든지 접근이 가능하다.
+
