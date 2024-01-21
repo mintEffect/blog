@@ -1,0 +1,68 @@
+---
+layout: post
+title: "java 팀 프로젝트"
+date: 2023-01-21
+last_modified_at: 2023-01-21
+categories: [programming]
+tags: [Java]
+---
+이벤트 시작 메세지와 라인과 본인 챔피언, 상대 챔피언을 랜덤으로 정하고, 파밍을 할 지 싸울지 정하도록 하는 프로그램
+~~~
+import java.util.*;  
+public class Q3 {  
+    public static void main(String[] args) {  
+        String[] line = {"top", "jungle", "mid", "adc", "support"};  
+        String[] top = {"Jax", "Aatrox", "Yone"};  
+        String[] jungle = {"Lee sin", "Graves", "KhaZix"};  
+        String[] mid = {"Hwei", "Orianna", "Akali"};  
+        String[] adc = {"Ezreal", "KaiSa", "Varus"};  
+        String[] support = {"Senna", "Ashe", "Rakan"};  
+        Random rand = new Random();  
+        int l = rand.nextInt(5);  
+        String champ = "Garen";  
+        String achamp = "Garen";  
+        int c = rand.nextInt(3);  
+        int ac = rand.nextInt(3);  
+        switch(l){  
+            case 0:  
+                champ = top[c];  
+                achamp = top[ac];  
+                break;  
+            case 1:  
+                champ = jungle[c];  
+                achamp = jungle[ac];  
+                break;  
+            case 2:  
+                champ = mid[c];  
+                achamp = mid[ac];  
+                break;  
+            case 3:  
+                champ = adc[c];  
+                achamp = adc[ac];  
+                break;  
+            case 4:  
+                champ = support[c];  
+                achamp = support[ac];  
+                break;  
+        }  
+        System.out.println("Welcome to Summoner's Rift");  
+        System.out.println("Faker's position is "+line[l]+" and he selected "+champ);  
+        System.out.println("Faker's enemy is "+achamp);  
+        System.out.println("fight (1), cs (2)");  
+        Scanner scan = new Scanner(System.in);  
+        int choice1 = scan.nextInt();  
+        switch(choice1){  
+            case 1:  
+                System.out.println("Faker started fighting");  
+                break;  
+            case 2:  
+                System.out.println("Faker choosed farming cs");  
+                break;  
+            default:  
+                System.out.println("Error");  
+                System.exit(0);  
+        }  
+
+    }  
+}  
+~~~
