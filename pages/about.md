@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-나가세요
+2024학년 중학교 2학년 정리

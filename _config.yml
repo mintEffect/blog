@@ -1,12 +1,12 @@
-title: 이도현의 기술 블로그
+title: 2024학년도 2학년
 email: dachex2@naver.com
 name: 이도현
 description: >- # this means to ignore newlines until "baseurl:"
   
 keywords: [ ]
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://mintEffect.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "mintEffect.github.io" # the domain name for your site, e.g. example.com
+url: "https://imae2024.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "imae2024.github.io" # the domain name for your site, e.g. example.com
 language: ko
 analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
 

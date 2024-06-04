@@ -3,7 +3,7 @@ layout: post
 title:  "linux 명령어"
 date:   2023-07-16
 last_modified_at: 2023-07-16
-categories: [programming]
+categories: [구동]
 tags: [Linux]
 ---
 
